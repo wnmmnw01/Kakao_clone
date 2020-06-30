@@ -3,32 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Model</title>
+    <title>Inline Example</title>
     <style>
-      body,
-      html {
-        padding: 0;
-        margin: 0;
-        background-color: bisque;
-        height: 100%;
-      }
       .box {
-        background-color: cadetblue;
-        width: 50%;
-        height: 50%;
-        padding: 20px 10px;
-      }
-      .inside-box {
-        background-color: crimson;
-        width: 50%;
-        height: 50%;
-        border: 5px gray groove;
+        background-color: greenyellow;
+        width: 200px;
+        height: 200px;
+        border: 1px solid steelblue;
+        display: inline-block;
       }
     </style>
   </head>
   <body>
-    <div class="box">
-      <div class="inside-box"></div>
-    </div>
+    <span class="box">1</span>
+    <span class="box">1</span>
+    <span class="box">1</span>
   </body>
 </html>
